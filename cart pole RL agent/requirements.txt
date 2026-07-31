@@ -1,0 +1,10 @@
+torch
+gymnasium[classic_control]
+stable-baselines3
+fastapi
+uvicorn
+pydantic
+streamlit
+matplotlib
+requests
+moviepy
