@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: ml-rendering-api
+    env: docker
+    region: oregon
+    plan: free
+    healthCheckPath: /health
+    branch: main
+    envVars:
+      - key: PORT
+        value: 8000
