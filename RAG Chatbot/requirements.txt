@@ -1,0 +1,11 @@
+langchain
+langchain_community
+chromadb
+pypdf
+fastapi
+uvicorn
+pydantic
+streamlit
+pytest
+huggingface_hub
+requests
