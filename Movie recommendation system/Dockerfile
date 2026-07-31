@@ -1,0 +1,1 @@
+FROM python:3.10\nCOPY . /app\nWORKDIR /app\nRUN pip install -r requirements.txt\nCMD ["uvicorn", "app.api:app", "--host", "0.0.0.0"]

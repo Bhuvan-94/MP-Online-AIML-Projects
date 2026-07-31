@@ -1,0 +1,7 @@
+fastapi
+streamlit
+torch
+pandas
+numpy
+scikit-learn
+pytest
